@@ -1004,6 +1004,7 @@ GameObject:
   - component: {fileID: 469698442}
   - component: {fileID: 469698444}
   - component: {fileID: 469698443}
+  - component: {fileID: 469698445}
   m_Layer: 0
   m_Name: Right
   m_TagString: MainCamera
@@ -1085,6 +1086,108 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &469698445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469698441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9876cfb3adbd1164ea775505b5aebf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S3DEnabled: 1
+  eyePriority: 1
+  swapLR: 0
+  optimize: 0
+  vSync: 1
+  method: 0
+  PPI: 96
+  userIPD: 66
+  virtualIPD: 66
+  virtualIPDMax: 1000
+  matchUserIPD: 1
+  FOVControl: 1
+  FOV: 90
+  FOVMinMax: {x: 10, y: 170}
+  panelDepth: 0
+  panelDepthMinMax: {x: 0, y: 1}
+  GUIAsOverlay: 1
+  GUISizeKeep: 1
+  GUIOpened: 1
+  GUIAutoshowTime: 3
+  toolTipShowDelay: 3
+  hide2DCursor: 0
+  cloneCamera: 1
+  cameraPrefab: {fileID: 0}
+  RTFormat: 9
+  slotName: User1
+  loadSettingsFromFile: 1
+  detectCameraSettingChange: 1
+  debug: 0
+  GUIAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 5893ce70-31a4-4ccf-88fa-ce84a860d079
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  S3DAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: e820580c-4542-4c7f-8efa-d83ea728d717
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  FOVAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c9bbfe71-41b5-45a0-938c-d63300f28eec
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier1Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 87651e08-b309-44a1-9084-c0f9a3974f53
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier2Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 0a20a9cf-8c6e-42a8-bc65-0c65fb1eaed5
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier3Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 11d13fd4-7eba-4a86-aae7-24934094d523
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  additionalS3DCameras: []
+  disableCullingMask: 0
+  nearClipHack: 0
+  matrixKillHack: 0
+  S3DMaterial: {fileID: 0}
+  renderTexture_left: {fileID: 0}
+  renderTexture_right: {fileID: 0}
 --- !u!1 &636535571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,6 +1637,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Front
   m_TagString: MainCamera
@@ -1615,6 +1719,108 @@ Transform:
   m_Children: []
   m_Father: {fileID: 406197151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9876cfb3adbd1164ea775505b5aebf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S3DEnabled: 1
+  eyePriority: 1
+  swapLR: 0
+  optimize: 0
+  vSync: 1
+  method: 0
+  PPI: 96
+  userIPD: 66
+  virtualIPD: 66
+  virtualIPDMax: 1000
+  matchUserIPD: 1
+  FOVControl: 1
+  FOV: 90
+  FOVMinMax: {x: 10, y: 170}
+  panelDepth: 0
+  panelDepthMinMax: {x: 0, y: 1}
+  GUIAsOverlay: 1
+  GUISizeKeep: 1
+  GUIOpened: 1
+  GUIAutoshowTime: 3
+  toolTipShowDelay: 3
+  hide2DCursor: 0
+  cloneCamera: 1
+  cameraPrefab: {fileID: 0}
+  RTFormat: 9
+  slotName: User1
+  loadSettingsFromFile: 1
+  detectCameraSettingChange: 1
+  debug: 0
+  GUIAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: af6574cd-5103-484a-bc7a-6b63c963635a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  S3DAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 1ffdac06-c53c-4e21-8242-e4eca5e9e5b1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  FOVAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 8033fdcb-b97f-484b-a659-29ebce590173
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier1Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f2b858cf-a981-4bcf-a9cc-52aabc938569
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier2Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c20ad4bc-ec4c-4795-9cc5-b7e6eab2ee17
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier3Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 0fc694f2-4c2d-499f-bd7b-e0a5d0ed0a0d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  additionalS3DCameras: []
+  disableCullingMask: 0
+  nearClipHack: 0
+  matrixKillHack: 0
+  S3DMaterial: {fileID: 0}
+  renderTexture_left: {fileID: 0}
+  renderTexture_right: {fileID: 0}
 --- !u!1 &976168633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,6 +2712,7 @@ GameObject:
   - component: {fileID: 1744405412}
   - component: {fileID: 1744405414}
   - component: {fileID: 1744405413}
+  - component: {fileID: 1744405415}
   m_Layer: 0
   m_Name: Left
   m_TagString: MainCamera
@@ -2587,6 +2794,108 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1744405415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744405411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9876cfb3adbd1164ea775505b5aebf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S3DEnabled: 1
+  eyePriority: 1
+  swapLR: 0
+  optimize: 0
+  vSync: 1
+  method: 0
+  PPI: 96
+  userIPD: 66
+  virtualIPD: 66
+  virtualIPDMax: 1000
+  matchUserIPD: 1
+  FOVControl: 1
+  FOV: 90
+  FOVMinMax: {x: 10, y: 170}
+  panelDepth: 0
+  panelDepthMinMax: {x: 0, y: 1}
+  GUIAsOverlay: 1
+  GUISizeKeep: 1
+  GUIOpened: 1
+  GUIAutoshowTime: 3
+  toolTipShowDelay: 3
+  hide2DCursor: 0
+  cloneCamera: 1
+  cameraPrefab: {fileID: 0}
+  RTFormat: 9
+  slotName: User1
+  loadSettingsFromFile: 1
+  detectCameraSettingChange: 1
+  debug: 0
+  GUIAction:
+    m_Name: GUI
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d00eff42-ea3a-4989-85e3-899943c519e6
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  S3DAction:
+    m_Name: S3D
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b2366063-c9cc-4050-8144-50a40f5968d7
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  FOVAction:
+    m_Name: FOV
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 65033c87-ef60-4213-822d-653ff728aec9
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier1Action:
+    m_Name: Modifier 1
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 83fe0054-2ae7-448d-a4f5-bbfeeb09d1a9
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier2Action:
+    m_Name: Modifier 2
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: e4a9e123-383f-4979-905f-f640b725d9a9
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier3Action:
+    m_Name: Modifier 3
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 246bd1c4-f8ee-439e-ac76-067e8d58ce76
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  additionalS3DCameras: []
+  disableCullingMask: 0
+  nearClipHack: 0
+  matrixKillHack: 0
+  S3DMaterial: {fileID: 0}
+  renderTexture_left: {fileID: 0}
+  renderTexture_right: {fileID: 0}
 --- !u!1 &1748377001
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,6 +3353,7 @@ GameObject:
   - component: {fileID: 2033030300}
   - component: {fileID: 2033030302}
   - component: {fileID: 2033030301}
+  - component: {fileID: 2033030303}
   m_Layer: 0
   m_Name: Floor
   m_TagString: MainCamera
@@ -3125,6 +3435,108 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &2033030303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033030299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9876cfb3adbd1164ea775505b5aebf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S3DEnabled: 1
+  eyePriority: 1
+  swapLR: 0
+  optimize: 0
+  vSync: 1
+  method: 0
+  PPI: 96
+  userIPD: 66
+  virtualIPD: 66
+  virtualIPDMax: 1000
+  matchUserIPD: 1
+  FOVControl: 1
+  FOV: 90
+  FOVMinMax: {x: 10, y: 170}
+  panelDepth: 0
+  panelDepthMinMax: {x: 0, y: 1}
+  GUIAsOverlay: 1
+  GUISizeKeep: 1
+  GUIOpened: 1
+  GUIAutoshowTime: 3
+  toolTipShowDelay: 3
+  hide2DCursor: 0
+  cloneCamera: 1
+  cameraPrefab: {fileID: 0}
+  RTFormat: 9
+  slotName: User1
+  loadSettingsFromFile: 1
+  detectCameraSettingChange: 1
+  debug: 0
+  GUIAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 92d40e9f-fe53-43b5-878b-e71360fbb101
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  S3DAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: e8d9f94d-3730-42de-bd65-54a34d511712
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  FOVAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 27377de2-ce23-442c-a053-54232e99d650
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier1Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a4bc440f-a42a-4a73-a6ff-fbcc585109ee
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier2Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 574d288e-bdb8-4720-9c10-3cb5363baa42
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  modifier3Action:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d46a93c9-2020-4786-92c6-801fd1e67701
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  additionalS3DCameras: []
+  disableCullingMask: 0
+  nearClipHack: 0
+  matrixKillHack: 0
+  S3DMaterial: {fileID: 0}
+  renderTexture_left: {fileID: 0}
+  renderTexture_right: {fileID: 0}
 --- !u!1 &2114727281
 GameObject:
   m_ObjectHideFlags: 0
